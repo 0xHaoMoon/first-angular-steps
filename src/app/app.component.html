@@ -1,5 +1,7 @@
+<div [class.container]="router.url !== '/'">
 <router-outlet></router-outlet>
-<app-header></app-header>
+</div>
+<app-header [darkMode]="router.url !== '/'"></app-header>
 
 
 

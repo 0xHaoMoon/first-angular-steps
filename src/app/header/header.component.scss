@@ -25,9 +25,28 @@ header{
     img{
         width: 300px;
         height: 300px;
+        cursor: pointer;
     }
 
     div{
         margin-right: 100px;
+    }
+
+    .darkLinks{
+        a{
+            color: black;
+            text-decoration: none;
+            margin-left: 40px;
+            font-size: 32px;
+    
+            &:hover{
+                color: rgba(0,0,0,0.8);
+            }
+        }
+    
+    }
+
+    .headerDark{
+        background-color:rgba(0,0,0,0.2);
     }
 }

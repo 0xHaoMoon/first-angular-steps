@@ -1,6 +1,12 @@
-<header>
-    <img routerLink="/" src="/assets/img/home.png" alt="" srcset="">
-    <div>
+<header [class.headerDark]="darkMode">
+
+
+
+
+
+
+    <img  routerLink="/" src="/assets/img/home.png" alt="" srcset="">
+    <div [class.darkLinks]="darkMode">
         <a routerLink="/">HOME</a>
         <a href="">CURRICULUM</a>
         <a href="">PROJECT</a>
